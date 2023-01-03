@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "exam-attendances": {
+      "hosting": {
+        "dinky": [
+          "exam-attendances"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "exam-attendances"
+  }
+}

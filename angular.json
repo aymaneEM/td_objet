@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "dinky:build:production",
+            "firebaseProject": "exam-attendances",
+            "firebaseHostingSite": "exam-attendances"
+          }
         }
       }
     }
